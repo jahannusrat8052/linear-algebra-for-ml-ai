@@ -1,0 +1,16 @@
+ notebooks/01_vectors.ipynb
+# Linear Algebra Basics: Scalars, Vectors, Matrices
+
+import numpy as np
+
+# Scalar
+scalar = 5
+print("Scalar:", scalar)
+
+# Vector (1D array)
+vector = np.array([1, 2, 3])
+print("Vector:", vector)
+
+# Matrix (2D array)
+matrix = np.array([[1, 2], [3, 4]])
+print("Matrix:\n", matrix)
